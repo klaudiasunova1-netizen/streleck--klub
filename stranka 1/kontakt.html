@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="utf-8">
+    <title>Kontakt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css/styles.css">
+
+    <!-- Ikony -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!--favicon-->
+      <link rel="icon" type="image/x-icon" href="images/znak_favicon.ico">
+</head>
+<body>
+    <header class="site-header">       
+        <nav class="site-navigation">
+            <div class="left-header"> 
+                <img src="images/logo.jpg" alt="logo">
+                <h1><a href="index.html"> Strelecký klub</a></h1> 
+            </div>
+            <ul>
+               <li><a href="O_klube.html">O klube</a></li>
+                <li><a href="galeria.html">Galéria</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HORNÝ BLOK: info + mapa vedľa seba -->
+    <div class="contact-top">
+
+        <div class="contact-info">
+            <h2>Kontaktujte nás</h2>
+
+            <p><span class="icon">📧</span> <strong>Email:</strong> sskbytca@gmail.com</p>
+            <p><span class="icon">✆</span> <strong>Telefón:</strong> +421 917 899 967</p>
+            <p><span class="icon">📍</span> <strong>Adresa:</strong> Kotešová 143, 013 61 Kotešová</p>
+        </div>
+
+        <div class="contact-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4247.009526239866!2d18.59275432163853!3d49.23710820367448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471460c52ce66e43%3A0x76fbfab8fe53ddc9!2zS290ZcWhb3bDoSAxNDMsIDAxMyA2MSBLb3RlxaFvdsOh!5e0!3m2!1ssk!2ssk!4v1764425373656!5m2!1ssk!2ssk"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+    </div>
+
+    <h3>Napíšte nám správu:</h3>
+
+    <form class="contact-form">
+        <label for="name">Meno:</label>
+        <input type="text" id="name" name="name" placeholder="Vaše meno" required>
+
+        <label for="surname">Priezvisko:</label>
+        <input type="text" id="surname" name="surname" placeholder="Vaše priezvisko" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Váš email" required>
+
+        <label for="message">Správa:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Vaša správa" required></textarea>
+
+        <button type="submit">Odoslať</button>
+    </form>
+
+    <!-- ZELENÁ PÄTA S IKONAMI -->
+    <footer class="mainFooter">
+        <p>Copyright &copy; 2025 Klaudia Šúňová</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=100049071823391&locale=sk_SK" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://sk.pinterest.com/" target="_blank">
+                <i class="fa-brands fa-pinterest"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
+
